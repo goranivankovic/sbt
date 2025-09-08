@@ -1,0 +1,33 @@
+
+https://www.enterijertrninic.rs/
+
+ 
+
+ https://profipovoljno.rs/galerija/
+
+
+https://caliper.rs/category/namestaj-po-meri/
+
+
+
+https://rroots.rs/katalog
+
+
+
+colors : #0c4072 , (#d69d32 ili #FFC14C) , #a6a6a6
+
+
+font-family : @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  cursor: pointer;
+ font-family: 'Orbitron', sans-serif;
+
+}

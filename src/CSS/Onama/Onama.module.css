@@ -1,0 +1,332 @@
+.main{
+    width: 100%;
+    min-height: 100vh;
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   
+  margin-top: var(--marginTopNum);
+    margin-bottom: var(--marginTopNum);
+
+}
+
+.firstDiv{
+    width: 70rem;
+    display: flex;
+    padding: .5em;
+    font-size: var(--onameHeadline);
+
+ margin-top: var(--marginTopNum);
+ margin-bottom: var(--marginTopNum);
+  
+    text-decoration: underline;
+
+    /* border: .4em solid red; */
+
+}
+
+.secondDiv{
+     width: 70rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+
+    padding: .5em;
+    /* border: .4em solid red; */
+
+}
+
+.secondDivText{
+ width: 32rem;
+
+
+/* border: .4em solid red; */
+
+}
+
+
+
+
+.secondDiv div:nth-child(1){
+    font-size: var(--onamaLargeText);
+   
+}
+.secondDiv div:nth-child(2) {
+font-size: var(--onamaLargeText);
+margin-bottom: 1em;
+}
+
+.secondDiv div:nth-child(3) {
+    font-size: var(--onamaText);
+    margin-bottom: 1em;
+}
+
+.secondDiv div:nth-child(4) {
+    font-size: var(--onamaText);
+    margin-bottom: 1em;
+}
+
+
+.secondDivImg{
+position: relative;
+width: 32rem;
+height: 20rem;
+background-image:  url('../../assets/stolica.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+
+}
+
+.secondDivImg img{
+    width: 100%;
+    height:  100%;
+    border-radius: var(--borderRadius);
+}
+
+
+
+/* Prva senka — pomerena 2em desno, 1em gore */
+.secondDivImg::before {
+    content: "";
+    position: absolute;
+    top: -2em;
+    left: 2em;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.08);
+    z-index: 1;
+
+
+    /* filter: blur(1px); */
+}
+
+/* Druga senka — pomerena 1em desno, 1em gore */
+.secondDivImg::after {
+    content: "";
+    position: absolute;
+    top: -1em;
+    left: 1em;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.08);
+    z-index: 1;
+
+    /* filter: blur(1px); */
+
+}
+
+
+
+
+
+
+
+
+
+.threeddDiv {
+    width: 70rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+  margin-top: 5em;
+
+    padding: .5em;
+    /* border: .4em solid red; */
+
+}
+
+.threeddDivText {
+    width: 32rem;
+  
+
+    /* border: .4em solid red; */
+
+}
+
+.threeddDiv div:nth-child(1) {
+    font-size: var(--onamaLargeText);
+
+}
+
+.threeddDiv div:nth-child(2) {
+    font-size: var(--onamaLargeText);
+    margin-bottom: 1em;
+  
+}
+
+.threeddDiv div:nth-child(3) {
+    font-size: var(--onamaText);
+    margin-bottom: 1em;
+}
+
+.threeddDiv div:nth-child(4) {
+    font-size: var(--onamaText);
+    margin-bottom: 1em;
+}
+
+
+.threeddDivImg {
+    position: relative;
+    width: 32rem;
+    height: 20rem;
+    background-image: url('../../assets/krevet.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.threeddDivImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--borderRadius);
+}
+
+
+
+/* Prva senka — pomerena 2em desno, 1em gore */
+.threeddDivImg::before {
+    content: "";
+    position: absolute;
+    top: -2em;
+    right: 2em;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.08);
+    z-index: 1;
+
+
+    /* filter: blur(1px); */
+}
+
+/* Druga senka — pomerena 1em desno, 1em gore */
+.threeddDivImg::after {
+    content: "";
+    position: absolute;
+    top: -1em;
+    right: 1em;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.08);
+    z-index: 1;
+
+    /* filter: blur(1px); */
+
+}
+
+
+
+
+
+.fourDiv{
+    position: relative;
+    width: 60rem;
+    background-color: var(--grey);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   /* align-items: center; */
+
+
+     padding: 2.5em;
+     margin-top: 4em;
+     margin-bottom: 4em;
+
+
+}
+
+.fourDivIcon{
+    font-size: var(--onamaICon);
+}
+
+.fourDiv div:nth-child(1) {
+
+    margin-bottom: 1em;
+    font-size: var(--onamaLargeText);
+
+
+}
+
+.fourDiv div:nth-child(2) {
+
+    font-size: var(--onamaText);
+    margin-bottom: 1em;
+      
+}
+
+.fourDiv div:nth-child(3) {
+
+    font-size: var(--onamaText);
+    margin-bottom: 1em;
+
+}
+.fourDiv div:nth-child(4) {
+
+    font-size: var(--onamaText);
+    margin-bottom: 1em;
+
+}
+
+
+.fourDiv::before {
+    content: "";
+    position: absolute;
+    top: -2em;
+    left: 2em;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.08);
+    z-index: 1;
+
+
+    /* filter: blur(1px); */
+
+
+
+}
+
+
+.fourDiv::after {
+    content: "";
+    position: absolute;
+    top: -1em;
+    left: 1em;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.08);
+    z-index: 1;
+
+    /* filter: blur(1px); */
+
+}
+
+
+.fourDiv:hover{
+    background-color: var(--blue);
+    color: var(--white);
+    transition: var(--transition);
+
+}
+
+.secondDivText:hover{
+    padding: .75em;
+   transition: var(--transition);
+   color: var(--white);
+    background-color: var(--grey)
+}
+
+
+.threeddDivText:hover{
+    padding: .75em;
+    transition: var(--transition);
+    color: var(--white);
+   background-color: var(--grey); 
+}

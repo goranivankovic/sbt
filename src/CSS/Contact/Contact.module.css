@@ -1,0 +1,69 @@
+.main{
+    width: 100%;
+   display: flex;
+   align-items: center;
+  justify-content: center;
+  align-items: center;
+
+background-color: var(--grey);
+margin-top: var(--marginTopNum);
+margin-bottom: var(--marginTopNum);
+color: var(--white);
+
+}
+
+.firstDiv{
+      width: 20rem;
+        display: flex;
+        flex-direction: column;
+        padding: .5em;
+
+    
+    
+        margin-top: 2em;
+        margin-bottom: 2em;
+        text-decoration: underline;
+        font-size: var(--contactText);
+
+}
+
+.firstDiv div{
+    padding: 1em;
+    /* background-color: red; */
+ 
+}
+
+.contact{
+
+    padding: .5em;
+    transform: rotate(-90deg);
+    font-size: var(--contactHeadline);
+
+
+}
+
+.icons{
+font-size: var(--contactIcons);
+}
+
+.phoneBook{
+    width: 23rem;
+    padding: .5em;
+    display: flex;
+    align-items: flex-end;
+    justify-content:center;
+    height: 20rem;
+    font-size: var(--contactHeadline);
+  
+
+/* border: 2px solid red; */
+
+
+}
+
+.firstDiv div:hover{
+ background-color: var(--white);
+ transition: var(--transition);
+ color: var(--yellow);  
+ transform: scale(1.05); 
+}

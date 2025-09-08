@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="user.html">Home</a></li>
+        <li><a href="proba.html">Home</a></li>
+    </ul>
+    <h1>User html</h1>
+
+
+<div class="kutija">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iste doloribus, fugiat quaerat sit voluptate error quasi reiciendis deserunt aut. Ullam vero, suscipit maiores perspiciatis consectetur inventore consequuntur qui molestiae?
+Eius itaque, enim adipisci accusamus modi voluptates soluta facere eaque maiores excepturi quibusdam repudiandae error voluptatibus provident tenetur non recusandae asperiores id doloribus veniam quidem praesentium est in. Illum, dolorum.
+Magnam asperiores nulla repudiandae quasi, deserunt velit quia, molestias odit possimus hic incidunt beatae nemo sapiente pariatur similique. Vel modi inventore neque explicabo. At adipisci exercitationem, earum alias culpa nobis.</div>
+
+
+    <style>
+
+
+
+.kutija {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  background: grey; 
+  z-index: 13;
+  backdrop-filter: blur(1111px);
+margin-top: 15em;
+margin-left: 15em;
+padding: 1em;
+color: white;
+  box-shadow: 5px 5px 10px  #808080;
+
+}
+
+
+
+/* Prva senka — pomerena 2em desno, 1em gore */
+.kutija::before {
+  content: "";
+  position: absolute;
+  top: -2em;
+  left: 2em;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.08);
+  z-index: 1;
+
+
+  /* filter: blur(1px); */
+
+
+
+}
+
+/* Druga senka — pomerena 1em desno, 1em gore */
+.kutija::after {
+  content: "";
+  position: absolute;
+  top: -1em;
+  left: 1em;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.08);
+  z-index: 1;
+
+    /* filter: blur(1px); */
+  
+}
+
+
+
+/* .kutija:hover::before {
+  top: -2em;
+  left: 3em;
+  filter: blur(1px);
+  transition: 600ms;
+}
+
+.kutija:hover::after {
+  top: -1.5em;
+  left: 2em;
+  filter: blur(1px);
+   transition: 600ms;
+} */
+
+      
+    </style>
+    
+</body>
+</html>

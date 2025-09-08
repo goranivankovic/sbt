@@ -1,0 +1,66 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cossette+Titre:wght@400;700&family=Goldman:wght@400;700&display=swap');
+
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  cursor: pointer;
+  font-family: "Goldman", sans-serif;
+   font-weight: 400;
+  font-style: normal;
+
+
+}
+
+
+:root {
+  --blue:#0c4072;
+  --yellow: #d69d32;
+  --grey: #d9d9d9;
+  --white:#ffffff;
+
+  --borderRadius:.5em;
+  --transition:.5s;
+  --marginTopNum:3em;
+
+/* NAVBAR */
+
+--navYellow:1rem;
+--navItems:1.15rem;
+
+
+/* POCETNA */
+--pocetnaBrojevi:1rem;
+--pocetnaSM:1.5rem;
+--pocetnaLG:2.2rem;
+
+
+  /* Onama */
+  --onameHeadline:1.5rem;
+  --onamaLargeText:1.4rem;
+  --onamaText:1.2rem;
+  --onamaICon:2rem;
+
+  /* Usluge */
+ --boxHeadline:1.1rem;
+ --boxText:1rem;
+ /* TRANSPORT */
+ --transportHeadline:1.5rem;
+ --transportText:1.1rem;
+ --transportIcons:2rem;
+
+ /* Galerija */
+ --galerijaStrelice:3rem;
+ --galerijaX:1.8rem;
+
+
+/* Contact */
+--contactText:1.2rem;
+--contactHeadline:2.1rem;
+--contactIcons:1.65rem;
+
+}
