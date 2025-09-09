@@ -8,13 +8,15 @@
   margin-top: var(--marginTopNum);
     margin-bottom: var(--marginTopNum);
 
+ 
+
 }
 
 .firstDiv{
     width: 70rem;
     display: flex;
-    padding: .5em;
-    font-size: var(--onameHeadline);
+    padding: .15em;
+    font-size: var(--text15);
 
  margin-top: var(--marginTopNum);
  margin-bottom: var(--marginTopNum);
@@ -50,21 +52,21 @@
 
 
 .secondDiv div:nth-child(1){
-    font-size: var(--onamaLargeText);
+    font-size: var(--text15);
    
 }
 .secondDiv div:nth-child(2) {
-font-size: var(--onamaLargeText);
+font-size: var(--text15);
 margin-bottom: 1em;
 }
 
 .secondDiv div:nth-child(3) {
-    font-size: var(--onamaText);
+    font-size: var(--text12);
     margin-bottom: 1em;
 }
 
 .secondDiv div:nth-child(4) {
-    font-size: var(--onamaText);
+    font-size: var(--text12);
     margin-bottom: 1em;
 }
 
@@ -150,23 +152,23 @@ background-repeat: no-repeat;
 }
 
 .threeddDiv div:nth-child(1) {
-    font-size: var(--onamaLargeText);
+    font-size: var(--text15);
 
 }
 
 .threeddDiv div:nth-child(2) {
-    font-size: var(--onamaLargeText);
+    font-size: var(--text15);
     margin-bottom: 1em;
   
 }
 
 .threeddDiv div:nth-child(3) {
-    font-size: var(--onamaText);
+    font-size: var(--text12);
     margin-bottom: 1em;
 }
 
 .threeddDiv div:nth-child(4) {
-    font-size: var(--onamaText);
+    font-size: var(--text12);
     margin-bottom: 1em;
 }
 
@@ -250,27 +252,27 @@ background-repeat: no-repeat;
 .fourDiv div:nth-child(1) {
 
     margin-bottom: 1em;
-    font-size: var(--onamaLargeText);
+    font-size: var(--text15);
 
 
 }
 
 .fourDiv div:nth-child(2) {
 
-    font-size: var(--onamaText);
+    font-size: var(--text12);
     margin-bottom: 1em;
       
 }
 
 .fourDiv div:nth-child(3) {
 
-    font-size: var(--onamaText);
+    font-size: var(--text12);
     margin-bottom: 1em;
 
 }
 .fourDiv div:nth-child(4) {
 
-    font-size: var(--onamaText);
+    font-size: var(--text12);
     margin-bottom: 1em;
 
 }

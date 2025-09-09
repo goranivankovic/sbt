@@ -55,15 +55,25 @@ function toogle4() {
        </div>
 
 
-            <div className={pocetnaStyle.secondDiv}>
-              <div>IZRADA NAMEŠTAJA PO MERI</div>
-              <div>IDEJA DIZAJN</div>
-              <div>REALIZACIJA</div>
+            <motion.div className={pocetnaStyle.secondDiv}
+              initial={{ opacity:0}}
+          animate={{ x:[-500,0] ,opacity:[0,1]}}
+          transition={{
+            duration:2.4,
+            ease: "easeInOut",
+            repeat: 0,
+            repeatType: "loop",
+            repeatDelay: 2
+          }}
+            >
+               <div>IZRADA <span  style={{color:"#d69d32"}}>NAMEŠTAJA</span>  PO MERI</div>
+              <div>IDEJA <span style={{color:"#d69d32"}}>DI</span>ZAJN</div>
+              <div><span style={{color:"#d69d32"}}>RE</span>ALIZACIJA</div> 
            
-            </div>
+            </motion.div>
 
 
-      <motion.img
+      <motion.img 
        transition={{ duration: 1.1 }} 
        animate={{ width: animateDiv ? ['0%','100%'] : '100%' ,opacity: animateDiv ? [0,1] : 1}}
         src={slika}  alt=""  className={pocetnaStyle.imgDiv}/>

@@ -14,8 +14,8 @@ margin-top: var(--marginTopNum);
     width: 70rem;
     display: flex;
     padding: .5em;
-    font-size: var(--onameHeadline);
-color: var(--white);
+    font-size: var(--text15);
+
 
 margin-top: var(--marginTopNum);
 margin-bottom: var(--marginTopNum);

@@ -3,10 +3,18 @@ import pult from '../../assets/pult.jpg'
 import pult2 from '../../assets/room3.jpg'
 import kombi from '../../assets/kombi.jpg'
 
-import { useState } from 'react';
+import { useState ,useEffect} from 'react';
+
+
+
+
 
 
 function Usluge() {
+
+
+
+
     const [laz, setlaze] = useState(false)
    const [laz2, setlaze2] = useState(false)
       const [laz3, setlaze3] = useState(false)

@@ -3,20 +3,42 @@
 import onamaStyle from '../../CSS/Onama/Onama.module.css'
 import { GiOnTarget } from "react-icons/gi";
 
-import { useRef } from "react";
+import { useRef,useEffect } from "react";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
+
 
 function Onama() {
+  
+useEffect(() => {
+AOS.init();
+
+
+}, [])
+
+  
 
   return (
-    <div>
-        <div className={onamaStyle.main}id='onama'>
+    <div id='onama'>
+        <div className={onamaStyle.main}>
 
             <div className={onamaStyle.firstDiv}>Ovo je naša priča...</div>
 
             {/* SECOND DIV */}
-            <div className={onamaStyle.secondDiv}>
+            <div className={onamaStyle.secondDiv} >
 
-                <div className={onamaStyle.secondDivText}>
+                <div className={onamaStyle.secondDivText} 
+                    data-aos="fade-up"
+                data-aos-offset="400"
+               data-aos-delay="100"
+               data-aos-duration="1500"
+               data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+                  data-aos-once="false"
+
+                >
                     <div>S<span style={{color:'#d69d32'}}>B</span>T – mesto gde se preciznost susreće </div>
                     <div>sa pouzdanošću.</div>
                     <div>
@@ -45,7 +67,17 @@ function Onama() {
                   {/* SLIKA */}
                 <div className={onamaStyle.threeddDivImg}></div>
 
-                <div className={onamaStyle.threeddDivText}>
+                <div className={onamaStyle.threeddDivText}
+
+               data-aos="fade-up"
+                data-aos-offset="400"
+               data-aos-delay="100"
+               data-aos-duration="1500"
+               data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                  data-aos-once="false"
+                
+                >
                     <div>DIZAJN  <span style={{color:'#d69d32'}}> DOSTAVA </span> KVALITET </div>
                     <div> </div>
                     <div>
@@ -70,7 +102,18 @@ function Onama() {
             </div>
 
 
-           <div className={onamaStyle.fourDiv}>
+           <div className={onamaStyle.fourDiv}
+
+               data-aos="fade-up"
+                data-aos-offset="100"
+               data-aos-delay="100"
+               data-aos-duration="1500"
+               data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                  data-aos-once="true"
+
+
+           >
             <div><GiOnTarget className={onamaStyle.fourDivIcon}  style={{color:"red"}} /> Naše vrednosti:</div>
 
             <div>

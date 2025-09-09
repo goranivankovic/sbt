@@ -9,14 +9,14 @@ function Contact() {
 
         <div className={contactStyle.firstDiv}>
             <div> <FaFile className={contactStyle.icons} /> KONTAKT</div>
-            <div> <FaPhoneAlt className={contactStyle.icons}  />  064 123 45 67</div>
-            <div><FaSquareGooglePlus className={contactStyle.icons}  />  sbt@gmail.com</div>
-            <div><FaInstagram className={contactStyle.icons}   />  @sbt123</div>
-            <div><FaFacebook  className={contactStyle.icons}  />  /sbt.facebook</div>
+           <div> <FaPhoneAlt className={contactStyle.icons}  />  066  08 43 00</div>
+           <div><FaSquareGooglePlus className={contactStyle.icons}  />  sbt@gmail.com</div>
+           <a href="https://www.instagram.com/" target='_blank'><div><FaInstagram className={contactStyle.icons}   />  @sbt123</div></a>  
+         <a href="https://www.facebook.com/" target='_blank'><div><FaFacebook  className={contactStyle.icons}  />  /sbt.facebook</div></a>   
   
         </div>
 
-        <div className={contactStyle.contact} style={{color:'#ffc65dff'}}>KONTAKT</div>
+        <div className={contactStyle.contact}>KONTAKT</div>
 
         <div className={contactStyle.phoneBook}> <span>PHONEBOOK..</span></div>
 

@@ -18,7 +18,7 @@ position: absolute;
     top: 0%;
     left: 0%;
 
-
+filter: brightness(0.55);
 
 
 }
@@ -39,10 +39,11 @@ position: absolute;
     width: 40rem;
 z-index: 5;
 
-background-image:  url('../../assets/providan.png');
+  background-image:  url('../../assets/providan.png');
  background-position: center;
  background-size: cover;
 background-repeat: no-repeat;
+opacity: .7;
 
 
 display: flex;
@@ -56,7 +57,7 @@ padding-left: 3em;
 
 
     .brojevi{
-        width: 25rem;
+        width: 22rem;
         /* background-color: red; */
 
     }
@@ -64,7 +65,7 @@ padding-left: 3em;
         font-size: var(--pocetnaBrojevi);
  
         width: 80%;
-        padding: 1.6em;
+        padding: 1.3em;
        display: flex;
        align-items: center;
        justify-content: space-between;
@@ -75,7 +76,7 @@ padding-left: 3em;
     
 
      width: 80%;
-     padding: .1em;
+     padding: .05em;
      background-color: var(--white);
     
  }
@@ -90,23 +91,22 @@ padding-left: 3em;
   .brojevi div:hover span {
     transition: var(--transition);
       width: 85%;
-      padding: .1em;
+        padding: .1em;
       background-color: #efb954;
 
   }
 
   .secondDiv{
     position: absolute;
-    top: 45%;
+    top: 42%;
     right: 4%;
-    width: 30rem;
+    width: 35rem;
     z-index: 5;
-background-color: var(--yellow);
 opacity: .8;
 color: var(--white);
 border-radius: .6em;
   padding: 1.5em;
-  
+  /* background-color: red; */
   }
 
 
@@ -126,6 +126,13 @@ border-radius: .6em;
       font-size: var(--pocetnaLG);
     padding-left: .25em;
     padding-bottom: .25em;
+  }
+
+  .secondDiv div:hover{
+    transition: var(--transition);
+    background-color: var(--white);
+    color: black;
+    opacity: .65;
   }
 
   

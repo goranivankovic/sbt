@@ -17,7 +17,7 @@ margin-bottom: var(--marginTopNum);
     width: 70rem;
     display: flex;
     padding: .5em;
-    font-size: var(--onameHeadline);
+    font-size: var(--text15);
 
 
     margin-top: 2em;
@@ -45,14 +45,14 @@ margin-bottom: var(--marginTopNum);
  display: flex;
  flex-direction: column;
 
-font-size: var(--transportText);
+font-size: var(--text12);
 /* border: .4em solid red; */
 
 }
 
 
 .secondDiv div :nth-child(1){
-    font-size: var(--transportHeadline);
+    font-size: var(--text15);
 }
 
 
@@ -128,7 +128,7 @@ font-size: var(--transportText);
 padding: 2em;
 color: var(--grey);
 border: .2em solid var(--grey);
-font-size: var(--transportText);
+font-size: var(--text11);
 
 }
 

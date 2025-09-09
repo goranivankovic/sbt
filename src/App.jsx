@@ -10,7 +10,10 @@ import Nav from './components/Nav/Nav'
 import Poecetna from './components/Pocetna/Poecetna'
 import Dekori from './components/Dekori/Dekori'
 
-import { useRef } from "react";
+
+import Footer from './components/Footer/Footer'
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,7 +28,8 @@ function App() {
     <Transport />
     <Contact />
     <Galerija />
-    <Dekori />
+     <Dekori /> 
+     <Footer />
   
     </>
   )

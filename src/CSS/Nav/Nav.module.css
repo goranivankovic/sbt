@@ -78,12 +78,12 @@ background-color: var(--yellow);
 
 }
 
-.mainItems div:nth-child(2) a:nth-child(1){
+/* .mainItems div:nth-child(2) a:nth-child(1){
 background-color: var(--yellow);
 padding: .75em;
 color: var(--white);
 
-}
+} */
 
 .mainItems div:nth-child(2) a:hover  {
 transition: var(--transition);

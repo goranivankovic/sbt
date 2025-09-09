@@ -8,7 +8,7 @@
 background-color: var(--grey);
 margin-top: var(--marginTopNum);
 margin-bottom: var(--marginTopNum);
-color: var(--white);
+
 
 }
 
@@ -23,7 +23,7 @@ color: var(--white);
         margin-top: 2em;
         margin-bottom: 2em;
         text-decoration: underline;
-        font-size: var(--contactText);
+        font-size: var(--text12);
 
 }
 
@@ -38,7 +38,7 @@ color: var(--white);
     padding: .5em;
     transform: rotate(-90deg);
     font-size: var(--contactHeadline);
-
+color: var(--yellow);
 
 }
 
@@ -66,4 +66,8 @@ font-size: var(--contactIcons);
  transition: var(--transition);
  color: var(--yellow);  
  transform: scale(1.05); 
+}
+
+.firstDiv a{
+    color: black;
 }

@@ -7,10 +7,10 @@ import kombi from '../../assets/kombi.jpg'
 import krevet from '../../assets/krevet.jpg'
 import kuhinja from '../../assets/kuhinja.jpg'
 import kuhinja2 from '../../assets/kuhinja2.jpg'
+
 import plakar from '../../assets/plakar.jpg'
 import plakar2 from '../../assets/plakar2.jpg'
 import pult from '../../assets/pult.jpg'
-
 
 import room2 from '../../assets/room2.jpg'
 import room3 from '../../assets/room3.jpg'
