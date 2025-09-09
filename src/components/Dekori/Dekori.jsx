@@ -5,7 +5,7 @@ import dekoriStyle from '../../CSS/Dekori/Dekori.module.css'
 import W1100 from '../../assets/egger/W1100.jpg'
 import W1000 from '../../assets/egger/W1000.jpg'
 import U104 from '../../assets/egger/U104.jpg'
-import W960 from '../../assets/egger/w960.jpg'
+import W960 from '../../assets/egger/W960.jpg'
 import U201 from '../../assets/egger/U201.jpg'
 
 import U335 from '../../assets/egger/U335.jpg'
