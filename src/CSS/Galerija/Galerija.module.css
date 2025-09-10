@@ -1123,7 +1123,7 @@ max-height:400vh
  .toggleDivImg {
    position: relative;
    width: 90%;
-   height: auto;
+   height: 18rem;
 
  }
 

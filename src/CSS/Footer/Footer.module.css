@@ -21,7 +21,7 @@ margin-bottom: var(--marginTopNum);
 
 
  
-    /* border: .4em solid red; */
+
 
 }
 
@@ -50,3 +50,118 @@ margin-bottom: var(--marginTopNum);
     text-decoration: none;
 }
 
+@media(max-width:70rem) {
+.firstDiv {
+        width: 50rem;
+        display: flex;
+        justify-content: space-between;
+        padding: .5em;
+        font-size: var(--text15);
+
+        border-bottom: .2em solid var(--yellow);
+
+
+
+
+    }
+
+    .firstDiv a {
+        color: black;
+        direction: none;
+    }
+
+    .secondDiv {
+        margin-top: var(--marginTopNum);
+        width: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: black;
+
+
+    }
+
+    .secondDiv div {
+        padding: .25em;
+        font-size: var(--text11);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:50rem) {
+    .firstDiv {
+        width: 40rem;
+        display: flex;
+        justify-content: space-between;
+        padding: .5em;
+        font-size: var(--text15);
+
+        border-bottom: .2em solid var(--yellow);
+
+
+
+
+    }
+
+    .secondDiv {
+        margin-top: var(--marginTopNum);
+        width: 40rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: black;
+
+
+    }
+
+    .secondDiv div {
+        padding: .25em;
+        font-size: var(--text11);
+    }
+}
+
+
+
+
+@media(max-width:40rem) {
+    .firstDiv {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+        font-size: var(--text15);
+
+        border-bottom: .2em solid var(--yellow);
+
+
+
+
+    }
+
+    .secondDiv {
+        margin-top: var(--marginTopNum);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: black;
+
+
+    }
+
+    .secondDiv div {
+        padding: .25em;
+        font-size: var(--text11);
+    }
+}
