@@ -28,8 +28,9 @@ function App() {
     <Transport />
      <Dekori /> 
     <Galerija />
-         {/* 
-     <Contact />
+     <Contact /> 
+  {/* 
+
      <Footer />  */}
      
   

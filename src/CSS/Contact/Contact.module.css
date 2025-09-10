@@ -24,6 +24,7 @@ margin-bottom: var(--marginTopNum);
         margin-bottom: 2em;
         text-decoration: underline;
         font-size: var(--text12);
+/* border: 2px solid red; */
 
 }
 
@@ -70,4 +71,147 @@ font-size: var(--contactIcons);
 
 .firstDiv a{
     color: black;
+}
+
+
+
+
+@media(max-width:60rem) {
+.main {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        background-color: var(--grey);
+        margin-top: var(--marginTopNum);
+        margin-bottom: var(--marginTopNum);
+
+
+    }
+
+.firstDiv {
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        padding: .5em;
+
+
+
+        margin-top: 2em;
+        margin-bottom: 2em;
+        text-decoration: underline;
+        font-size: var(--text12);
+
+    }
+
+    .firstDiv div {
+        padding: 1em;
+        /* background-color: red; */
+
+    }
+
+    .contact {
+
+        padding: .5em;
+        transform: rotate(0deg);
+        font-size: var(--contactHeadline);
+        color: var(--yellow);
+
+    }
+
+    .icons {
+        font-size: var(--contactIcons);
+    }
+
+    .phoneBook {
+        width: 23rem;
+        padding: .5em;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: auto;
+        font-size: var(--contactHeadline);
+
+
+        /* border: 2px solid red; */
+
+
+    }
+
+
+
+}
+
+
+
+@media(max-width:40rem) {
+    .main {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        background-color: var(--grey);
+        margin-top: var(--marginTopNum);
+        margin-bottom: var(--marginTopNum);
+
+
+    }
+
+    .firstDiv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: .5em;
+
+
+
+        margin-top: 2em;
+        margin-bottom: 2em;
+        text-decoration: underline;
+        font-size: var(--text12);
+
+    }
+
+    .firstDiv div {
+        padding: 1em;
+        /* background-color: red; */
+
+    }
+
+    .contact {
+
+        padding: .5em;
+        transform: rotate(0deg);
+        font-size: var(--contactHeadline);
+        color: var(--yellow);
+
+    }
+
+    .icons {
+        font-size: var(--contactIcons);
+    }
+
+    .phoneBook {
+        width: 100%;
+        padding: 1em;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: auto;
+        font-size: var(--contactHeadline);
+
+
+            margin-bottom: var(--marginTopNum);
+
+
+    }
+
+
+
 }
