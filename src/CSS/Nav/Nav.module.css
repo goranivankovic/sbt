@@ -308,7 +308,7 @@ z-index: 55;
 .bars {
     position: fixed;
     top: 3%;
-    right: 4%;
+    right: 5%;
   
     display: flex;
     font-size: var(--nav960bars);

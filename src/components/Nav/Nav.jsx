@@ -62,13 +62,13 @@ setLaz4(!laz4)
 {laz3 ?
 
     <div className={navStyle.nav960}>
-       <a href="#pocetna">POČETNA</a>
-       <a  href="#onama">O NAMA</a>
-       <a href="#usluge">USLUGE</a>
-       <a href="#transport">TRANSPORT</a>
-        <a href="#dekori">DEKORI</a>
-        <a href="#galerija">GALERIJA</a> 
-       <a href="#kontakt">KONTAKT</a>
+       <a onClick={toogle} href="#pocetna">POČETNA</a>
+       <a onClick={toogle}  href="#onama">O NAMA</a>
+       <a onClick={toogle} href="#usluge">USLUGE</a>
+       <a onClick={toogle} href="#transport">TRANSPORT</a>
+        <a onClick={toogle} href="#dekori">DEKORI</a>
+        <a onClick={toogle} href="#galerija">GALERIJA</a> 
+       <a onClick={toogle} href="#kontakt">KONTAKT</a>
       
      
    
@@ -78,7 +78,7 @@ setLaz4(!laz4)
 
 
 
-   {!laz4 ? <FaBarsStaggered style={{color:"#d69d32"}} className={navStyle.bars} onClick={toogle}/>  : 
+   {!laz4 ? <FaBarsStaggered  style={{color:"#d69d32"}} className={navStyle.bars} onClick={toogle}/>  : 
      <ImCross  className={navStyle.bars} onClick={toogle} /> }
              
 
