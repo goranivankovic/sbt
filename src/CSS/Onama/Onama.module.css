@@ -877,7 +877,7 @@ display: none;
     .secondDivImg {
         position: relative;
         width: 100%;
-        height: 23rem;
+        height: 17rem;
         background-image: url('../../assets/stolica.jpg');
         background-position: center;
         background-size: cover;
@@ -936,7 +936,7 @@ display: none;
     .threeddDivImg {
         position: relative;
         width: 100%;
-        height: 23rem;
+        height: 17rem;
         background-image: url('../../assets/krevet.jpg');
         background-position: center;
         background-size: cover;

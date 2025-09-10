@@ -1111,7 +1111,7 @@ display: none;
 
   .imgDiv div {
 
-    height: 18rem;
+    height: 17rem;
       width: 48%;
   }
   .imgDiv div  img{
@@ -1137,7 +1137,7 @@ display: none;
  .toggleDivImg {
    position: relative;
    width: 90%;
-   height: 25rem;
+   height: auto;
 
  }
 
@@ -1174,7 +1174,7 @@ display: none;
   .crossIcon {
 
     position: absolute;
-    top: -8%;
+    top: -11%;
     right: 0%;
 
 
