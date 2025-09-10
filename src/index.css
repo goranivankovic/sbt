@@ -52,7 +52,7 @@
   --onamaICon:2rem;
 
   /* Usluge */
- --boxHeadline:1.1rem;
+ --boxHeadline:1.2rem;
  /* TRANSPORT */
 
  --transportIcons:2rem;
@@ -67,5 +67,241 @@
 --contactIcons:1.65rem;
 
 }
+
+
+@media(max-width: 80rem) {
+:root {
+
+    --marginTopNum: 3em;
+
+
+    --text15: 1.5rem;
+    --text12: 1.2rem;
+    --text11: 1.1rem;
+
+
+    --pocetnaSM: 1.8rem;
+    --pocetnaLG: 2.4rem;
+
+
+    /* NAVBAR */
+
+    --navYellow: 1rem;
+    --navItems: 1.15rem;
+
+
+    /* POCETNA */
+    --pocetnaBrojevi: 1rem;
+    --pocetnaBrojevi: 1.1rem;
+
+
+
+    --onamaICon: 2rem;
+
+    /* Usluge */
+    --boxHeadline: 1.1rem;
+    /* TRANSPORT */
+
+    --transportIcons: 2rem;
+
+    /* Galerija */
+    --galerijaStrelice: 3rem;
+    --galerijaX: 1.8rem;
+
+
+    /* Contact */
+    --contactHeadline: 2.1rem;
+    --contactIcons: 1.65rem;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 70rem) {
+  :root {
+
+    --marginTopNum: 3em;
+
+
+    --text15: 1.4rem;
+    --text12: 1.1rem;
+    --text11: 1rem;
+
+
+    --pocetnaSM: 1.5rem;
+    --pocetnaLG: 1.8rem;
+
+
+    /* NAVBAR */
+
+    --navYellow: 1rem;
+    --navItems: 1.15rem;
+
+
+    /* POCETNA */
+    --pocetnaBrojevi: 1rem;
+    --pocetnaBrojevi: 1.1rem;
+
+
+
+    --onamaICon: 2rem;
+
+    /* Usluge */
+    --boxHeadline: 1.1rem;
+    /* TRANSPORT */
+
+    --transportIcons: 2rem;
+
+    /* Galerija */
+    --galerijaStrelice: 3rem;
+    --galerijaX: 1.8rem;
+
+
+    /* Contact */
+    --contactHeadline: 2.1rem;
+    --contactIcons: 1.65rem;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 60rem) {
+  :root {
+
+    --marginTopNum: 1.7em;
+
+
+    --text15: 1.3rem;
+    --text12: 1.1rem;
+    --text11: 1rem;
+
+
+    --pocetnaSM: 1.5rem;
+    --pocetnaLG: 1.8rem;
+
+
+    /* NAVBAR */
+
+    --navYellow: 1rem;
+    --navItems: 1.15rem;
+
+
+    /* POCETNA */
+    --pocetnaBrojevi: 1rem;
+    --pocetnaBrojevi: 1.1rem;
+
+
+
+    --onamaICon: 2rem;
+
+    /* Usluge */
+    --boxHeadline: 1.1rem;
+    /* TRANSPORT */
+
+    --transportIcons: 2rem;
+
+    /* Galerija */
+    --galerijaStrelice: 3rem;
+    --galerijaX: 1.8rem;
+
+
+    /* Contact */
+    --contactHeadline: 2.1rem;
+    --contactIcons: 1.65rem;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 50rem) {
+  :root {
+
+    --marginTopNum: 1em;
+
+
+    --text15: 1.2rem;
+    --text12: 1.05rem;
+    --text11: .95rem;
+
+    --pocetnaSM: 1.4rem;
+    --pocetnaLG: 1.7rem;
+
+
+    /* NAVBAR */
+
+    --navYellow: 1rem;
+    --navItems: 1.15rem;
+
+
+    /* POCETNA */
+    --pocetnaBrojevi: 1rem;
+    --pocetnaBrojevi: 1.1rem;
+
+
+
+    --onamaICon: 2rem;
+
+    /* Usluge */
+    --boxHeadline: 1rem;
+    /* TRANSPORT */
+
+    --transportIcons: 1.8rem;
+
+    /* Galerija */
+    --galerijaStrelice: 2.5rem;
+    --galerijaX: 1.5rem;
+
+
+    /* Contact */
+    --contactHeadline: 2.1rem;
+    --contactIcons: 1.65rem;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
 
 

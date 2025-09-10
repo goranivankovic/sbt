@@ -1,35 +1,75 @@
 
-import galerijaStyle from '../../CSS/Nav/Nav.module.css'
+import navStyle from '../../CSS/Nav/Nav.module.css'
 import { MdOutlineEmail } from "react-icons/md";
 import { FaFile ,FaPhoneAlt ,FaInstagram ,FaFacebook  } from "react-icons/fa";
 import SBT from '../../assets/SBT.png'
-import { useRef } from "react";
+import { useState } from "react";
 
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { div } from 'motion/react-client';
 
 
 function Nav() {
+   const[laz2,setLaz2]=useState(false)
+
+
+
+   
+function toogle() {
+  if (!laz2) {
+    let bars =document.getElementById('bars')
+bars.style.transition='900ms'
+bars.style.transform='rotate(360deg)'
+bars.style.transformOrigin='center'
+
+    setLaz2(!laz2)
+    setIsOpen(isOpen => !isOpen)
+     setShowBars(!showBars)  
+
+  }else{
+        let bars =document.getElementById('bars')
+bars.style.transition='900ms'
+bars.style.transform='rotate(-360deg)'
+bars.style.transformOrigin='center'
+
+    setLaz2(!laz2)
+    setIsOpen(isOpen => !isOpen)
+     setShowBars(!showBars) 
+
+  }
+
+}
 
 
 
   return (
-    <div className={galerijaStyle.main}>
 
-        <div className={galerijaStyle.firstDiv}>
+<div>
 
-            <div className={galerijaStyle.navItems}>
-                <div> <span>sbt@gmail.com</span></div> 
-                <div>/  066  08 43 00  / </div>
+
+
+
+
+
+
+
+    <div className={navStyle.main}>
+
+        <div className={navStyle.firstDiv}>
+
+            <div className={navStyle.navItems}>
+                <div> <span> sbt@gmail.com </span></div> 
+                <div>|  066  08 43 00   |</div>
                 <div>(RADNO VREME 08:00 - 20:00)</div>  
             </div>
             
         </div>
 
-    <div className={galerijaStyle.mainNavbar}>
+    <div className={navStyle.mainNavbar}>
         
      
 
- <motion.div className={galerijaStyle.mainItems}
+ <motion.div className={navStyle.mainItems}
 
               initial={{ opacity:0}}
               animate={{ x:[500,0] ,opacity:[0,1]}}
@@ -54,12 +94,14 @@ function Nav() {
     
     <div>
        <a href="#pocetna">POČETNA</a>
-       <a  href="#onama">ONAMA</a>
+       <a  href="#onama">O NAMA</a>
        <a href="#usluge">USLUGE</a>
        <a href="#transport">TRANSPORT</a>
+        <a href="#dekori">DEKORI</a>
+        <a href="#galerija">GALERIJA</a> 
        <a href="#kontakt">KONTAKT</a>
-       <a href="#galerija">GALERIJA</a> 
-      <a href="#dekori">DEKORI</a>
+      
+     
    
     </div>
 
@@ -70,6 +112,24 @@ function Nav() {
 
 
     </div>
+
+
+ {laz2 ?   
+
+  
+     <div>asda</div>
+
+  :""}    
+
+
+
+
+
+
+
+
+
+   </div> 
   )
 }
 

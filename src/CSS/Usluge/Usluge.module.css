@@ -22,7 +22,7 @@ margin-bottom: var(--marginTopNum);
     text-decoration: underline;
 
     margin-bottom: 2em;
-    /* border: .4em solid red; */
+    /* border: .2em solid red; */
 
 }
 
@@ -35,7 +35,7 @@ margin-bottom: var(--marginTopNum);
     padding-top: 5em;
     padding-left: 3em;
 
-        /* border: .4em solid red; */
+        /* border: .2em solid red; */
 
 }
 
@@ -74,14 +74,14 @@ box-shadow: 5px 12px 12px  black;
     font-size: var(--boxHeadline);
     margin-top: 1em;
 
-    /* background-color: red; */
+
 
 }
 
 
 .box div:nth-child(3) {
     margin-top: 1em;
-    font-size: var(--boxText);
+    font-size: var(--text11);
 
 }
 
@@ -151,6 +151,400 @@ width: 85%;
  background-color: var(--yellow);
 
 } 
+
+@media(max-width: 75rem){
+
+
+.boxesThreee .box:nth-child(2) {
+
+        margin-left: 2em;
+        margin-top: -40em;
+
+        z-index: 5;
+    }
+
+    .boxesThreee .box:nth-child(3) {
+
+        margin-left: 4em;
+        margin-top: -40em;
+        z-index: 4;
+    }
+
+
+} 
+
+
+
+@media(max-width: 70rem) {
+.firstDiv {
+        width: 60rem;
+        display: flex;
+        padding: .5em;
+        font-size: var(--text15);
+
+
+        margin-top: var(--marginTopNum);
+        margin-bottom: var(--marginTopNum);
+        text-decoration: underline;
+
+        margin-bottom: 2em;
+        /* border: .4em solid red; */
+
+    }
+
+    .secondDiv {
+        width: 60rem;
+        display: flex;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-top: 5em;
+        padding-left: 3em;
+
+
+
+    }
+
+
+    .boxesThreee {
+
+        width: 34rem;
+
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    .box {
+        width: 23rem;
+        height: 38rem;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 12px 12px black;
+
+    }
+
+    .box img {
+        width: 100%;
+        height: 17rem;
+    }
+
+    .box div {
+        padding: 1em;
+    }
+
+    .box div:nth-child(2) {
+
+        font-size: var(--boxHeadline);
+        margin-top: 1em;
+
+      
+
+    }
+
+
+    .box div:nth-child(3) {
+        margin-top: 1em;
+        font-size: var(--text11);
+
+    }
+
+    .boxesThreee .box:nth-child(1) {
+
+
+        z-index: 6;
+    }
+
+          .boxesThreee .box:nth-child(2) {
+    
+              margin-left: 1em;
+              margin-top: -40em;
+    
+              z-index: 5;
+          }
+    
+          .boxesThreee .box:nth-child(3) {
+    
+              margin-left: 1em;
+              margin-top: -40em;
+              z-index: 4;
+          }
+
+
+    .brojevi {
+        margin-top: 5em;
+        width: 18rem;
+        color: var(--white);
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        z-index: 10;
+        font-size: var(--boxHeadline);
+
+
+
+
+    }
+
+    .brojevi div {
+        width: 100%;
+        margin-bottom: 5em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .brojevi div:nth-child(1) span {
+        width: 85%;
+        padding: .1em;
+        background-color: var(--white);
+        color: black;
+    }
+
+  
+
+}
+
+
+
+
+
+@media(max-width: 60rem) {
+
+
+    .firstDiv {
+        width: 40rem;
+        display: flex;
+        padding: 1em;
+        font-size: var(--text15);
+
+
+        margin-top: var(--marginTopNum);
+        margin-bottom: var(--marginTopNum);
+        text-decoration: underline;
+
+        /* border: .4em solid red; */
+
+    }
+
+    .secondDiv {
+        width: 40rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        justify-content: space-between;
+
+        padding-top: 0m;
+        padding-left: 0em;
+
+
+
+    }
+
+
+    .boxesThreee {
+
+        width: 34rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+    }
+
+    .box {
+        width: 23rem;
+        height: 38rem;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 12px 12px black;
+        margin-bottom: var(--marginTopNum);
+
+    }
+
+    .box img {
+        width: 100%;
+        height: 17rem;
+    }
+
+    .box div {
+        padding: 1em;
+    }
+
+    .box div:nth-child(2) {
+
+        font-size: var(--boxHeadline);
+        margin-top: 1em;
+
+        /* background-color: red; */
+
+    }
+
+
+    .box div:nth-child(3) {
+        margin-top: 1em;
+        font-size: var(--text11);
+
+    }
+
+    .boxesThreee .box:nth-child(1) {
+
+
+        z-index: 6;
+    }
+
+    .boxesThreee .box:nth-child(2) {
+
+        margin-left: 0em;
+        margin-top: 0em;
+
+        z-index: 5;
+    }
+
+    .boxesThreee .box:nth-child(3) {
+
+        margin-left: 0em;
+        margin-top: 0em;
+        z-index: 4;
+    }
+
+
+    .brojevi {
+
+
+        display: none;
+
+
+    }
+
+
+
+}
+
+
+
+
+@media(max-width: 40rem) {
+    .firstDiv {
+        width: 100%;
+        display: flex;
+        padding: 1em;
+        font-size: var(--text15);
+
+
+        margin-top: var(--marginTopNum);
+        margin-bottom: var(--marginTopNum);
+        text-decoration: underline;
+
+        /* border: .4em solid red; */
+
+    }
+
+    .secondDiv {
+       width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        justify-content: space-between;
+
+      
+        padding-left: 0em;
+
+
+
+    }
+
+
+    .boxesThreee {
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+    }
+
+    .box {
+        width: 22rem;
+        height: 37rem;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 12px 12px black;
+        margin-bottom: var(--marginTopNum);
+
+    }
+
+    .box img {
+        width: 100%;
+        height: 17rem;
+    }
+
+    .box div {
+        padding: 1em;
+    }
+
+    .box div:nth-child(2) {
+
+        font-size: var(--boxHeadline);
+        margin-top: 1em;
+
+        /* background-color: red; */
+
+    }
+
+
+    .box div:nth-child(3) {
+        margin-top: 1em;
+        font-size: var(--text11);
+
+    }
+
+    .boxesThreee .box:nth-child(1) {
+
+
+        z-index: 6;
+    }
+
+    .boxesThreee .box:nth-child(2) {
+
+        margin-left: 0em;
+        margin-top: 0em;
+
+        z-index: 5;
+    }
+
+    .boxesThreee .box:nth-child(3) {
+
+        margin-left: 0em;
+        margin-top: 0em;
+        z-index: 4;
+    }
+
+
+    .brojevi {
+
+
+        display: none;
+
+
+    }
+
+
+
+}
 
 
 

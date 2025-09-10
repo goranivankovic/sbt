@@ -24,7 +24,7 @@ margin-bottom: var(--marginTopNum);
   
     text-decoration: underline;
 
-    /* border: .4em solid red; */
+    /* border: .2em solid red; */
 
 }
 
@@ -142,4 +142,367 @@ font-size: var(--text11);
     background-color: var(--grey);
     transform: scale(1.1);
     color: var(--white);
+}
+
+
+
+
+
+
+@media(max-width: 70rem) {
+.firstDiv {
+        width: 60rem;
+        display: flex;
+        padding: .5em;
+        font-size: var(--text15);
+
+
+        margin-top: 2em;
+
+        text-decoration: underline;
+
+
+
+    }
+
+    .secondDiv {
+        width: 60rem;
+        display: flex;
+        justify-content: space-between;
+
+
+        padding: .5em;
+
+
+
+    }
+
+    .secondDivText {
+        width: 32rem;
+        display: flex;
+        flex-direction: column;
+
+        font-size: var(--text12);
+        /* border: .4em solid red; */
+
+    }
+
+
+    .secondDiv div :nth-child(1) {
+        font-size: var(--text15);
+    }
+
+
+
+
+    .secondDivText div {
+        width: 100%;
+        padding: .75em;
+        margin-bottom: 1.5em;
+
+    }
+
+
+
+
+
+
+    .secondDivImg {
+
+        height: 24rem;
+        width: 32rem;
+        background-image: url('../../assets/kombi.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+
+    .secondDivImg::before {
+        content: "";
+        position: absolute;
+        top: -2em;
+        left: 2em;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.08);
+        z-index: 1;
+
+
+        /* filter: blur(1px); */
+
+
+
+    }
+
+
+    .secondDivImg::after {
+        content: "";
+        position: absolute;
+        top: -1em;
+        left: 1em;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.08);
+        z-index: 1;
+
+        /* filter: blur(1px); */
+
+    }
+
+    .threedDiv {
+        width: 60rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2em;
+        color: var(--grey);
+        border: .2em solid var(--grey);
+        font-size: var(--text11);
+
+    }
+
+    .transportIcons {
+        font-size: var(--transportIcons);
+        color: var(--yellow);
+    }
+
+
+
+
+}
+
+
+
+
+@media(max-width: 60rem) {
+    .firstDiv {
+        width: 40rem;
+        display: flex;
+        padding: .5em;
+        font-size: var(--text15);
+
+
+    margin-top: var(--marginTopNum);
+        text-decoration: underline;
+
+
+
+    }
+
+    .secondDiv {
+        width: 40rem;
+        display: flex;
+        align-items: center;
+            flex-direction: column;
+
+        justify-content: space-between;
+
+
+        padding: .5em;
+
+
+
+    }
+
+    .secondDivText {
+        width: 100%;
+        display: flex;
+   
+        flex-direction: column;
+
+        font-size: var(--text12);
+        /* border: .4em solid red; */
+
+    }
+
+
+    .secondDiv div :nth-child(1) {
+        font-size: var(--text15);
+    }
+
+
+
+
+    .secondDivText div {
+        width: 100%;
+        padding: .75em;
+        margin-bottom: 1.5em;
+
+    }
+
+
+
+
+
+
+    .secondDivImg {
+
+
+        width: 95%;
+        height: 20rem;
+        background-image: url('../../assets/kombi.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+
+    .secondDivImg::before {
+display: none;
+
+
+    }
+
+
+    .secondDivImg::after {
+display: none;
+
+    }
+
+    .threedDiv {
+        width: 40rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2em;
+        color: var(--grey);
+        border: .2em solid var(--grey);
+        font-size: var(--text11);
+
+    }
+
+    .transportIcons {
+        font-size: var(--transportIcons);
+        color: var(--yellow);
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 40rem) {
+    .firstDiv {
+        width: 100%;
+        display: flex;
+        padding: 1em;
+        font-size: var(--text15);
+
+
+    margin-top: var(--marginTopNum);
+
+        text-decoration: underline;
+
+
+
+    }
+
+    .secondDiv {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        justify-content: space-between;
+
+
+        padding: 0em;
+
+
+
+    }
+
+    .secondDivText {
+        width: 100%;
+        display: flex;
+
+        flex-direction: column;
+
+        font-size: var(--text12);
+        /* border: .4em solid red; */
+
+    }
+
+
+    .secondDiv div :nth-child(1) {
+        font-size: var(--text15);
+    }
+
+
+
+
+    .secondDivText div {
+        width: 100%;
+        padding: 1em;
+    margin-bottom: var(--marginTopNum);
+
+    }
+
+
+
+
+
+
+    .secondDivImg {
+
+
+        width: 100%;
+        height: 23rem;
+        background-image: url('../../assets/kombi.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+
+    .secondDivImg::before {
+        display: none;
+
+
+    }
+
+
+    .secondDivImg::after {
+        display: none;
+
+    }
+
+    .threedDiv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1em;
+        color: var(--grey);
+        border: .2em solid var(--grey);
+        font-size: var(--text11);
+
+    }
+    .threedDiv div{
+        padding: 1em;
+    }
+
+    .transportIcons {
+        font-size: var(--transportIcons);
+        color: var(--yellow);
+    }
+
+
+
+
 }

@@ -21,15 +21,17 @@ function App() {
 
   return (
     <>
-     <Nav />
+   <Nav /> 
     <Poecetna />
     <Onama  />
     <Usluge />
     <Transport />
-    <Contact />
-    <Galerija />
      <Dekori /> 
-     <Footer />
+    <Galerija />
+         {/* 
+     <Contact />
+     <Footer />  */}
+     
   
     </>
   )

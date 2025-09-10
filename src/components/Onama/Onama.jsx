@@ -30,7 +30,7 @@ AOS.init();
             <div className={onamaStyle.secondDiv} >
 
                 <div className={onamaStyle.secondDivText} 
-                    data-aos="fade-up"
+                data-aos="fade-up"
                 data-aos-offset="400"
                data-aos-delay="100"
                data-aos-duration="1500"
@@ -74,8 +74,9 @@ AOS.init();
                data-aos-delay="100"
                data-aos-duration="1500"
                data-aos-easing="ease-in-out"
-                      data-aos-mirror="true"
+               data-aos-mirror="true"
                   data-aos-once="false"
+
                 
                 >
                     <div>DIZAJN  <span style={{color:'#d69d32'}}> DOSTAVA </span> KVALITET </div>
@@ -109,7 +110,7 @@ AOS.init();
                data-aos-delay="100"
                data-aos-duration="1500"
                data-aos-easing="ease-in-out"
-                      data-aos-mirror="true"
+                data-aos-mirror="true"
                   data-aos-once="true"
 
 

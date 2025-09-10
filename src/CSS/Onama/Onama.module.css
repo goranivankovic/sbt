@@ -36,7 +36,8 @@
 
 
     padding: .5em;
-    /* border: .4em solid red; */
+
+    /* border: .4em solid blue; */
 
 }
 
@@ -104,7 +105,7 @@ background-repeat: no-repeat;
     z-index: 1;
 
 
-    /* filter: blur(1px); */
+
 }
 
 /* Druga senka — pomerena 1em desno, 1em gore */
@@ -139,7 +140,7 @@ background-repeat: no-repeat;
   margin-top: 5em;
 
     padding: .5em;
-    /* border: .4em solid red; */
+    /* border: .4em solid blue; */
 
 }
 
@@ -194,7 +195,7 @@ background-repeat: no-repeat;
 
 
 
-/* Prva senka — pomerena 2em desno, 1em gore */
+
 .threeddDivImg::before {
     content: "";
     position: absolute;
@@ -331,4 +332,679 @@ background-repeat: no-repeat;
     transition: var(--transition);
     color: var(--white);
    background-color: var(--grey); 
+}
+
+
+
+
+@media(max-width: 70rem) {
+.firstDiv {
+        width: 60rem;
+        display: flex;
+        padding: .15em;
+        font-size: var(--text15);
+
+        margin-top: var(--marginTopNum);
+        margin-bottom: var(--marginTopNum);
+
+        text-decoration: underline;
+
+;
+
+    }
+
+    .secondDiv {
+        width: 60rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+
+
+        padding: .5em;
+
+
+    }
+
+    .secondDivText {
+        width: 28rem;
+
+
+
+    }
+
+
+
+
+    .secondDiv div:nth-child(1) {
+        font-size: var(--text15);
+
+    }
+
+    .secondDiv div:nth-child(2) {
+        font-size: var(--text15);
+        margin-bottom: 1em;
+    }
+
+    .secondDiv div:nth-child(3) {
+        font-size: var(--text12);
+        margin-bottom: 1em;
+    }
+
+    .secondDiv div:nth-child(4) {
+        font-size: var(--text12);
+        margin-bottom: 1em;
+    }
+
+
+    .secondDivImg {
+        position: relative;
+        width: 28rem;
+        height: 20rem;
+        background-image: url('../../assets/stolica.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+
+    }
+
+
+
+    .threeddDiv {
+        width: 60rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        margin-top: 5em;
+
+        padding: .5em;
+   
+
+    }
+
+    .threeddDivText {
+        width: 28rem;
+
+
+
+
+    }
+
+    .threeddDiv div:nth-child(1) {
+        font-size: var(--text15);
+
+    }
+
+    .threeddDiv div:nth-child(2) {
+        font-size: var(--text15);
+        margin-bottom: 1em;
+
+    }
+
+    .threeddDiv div:nth-child(3) {
+        font-size: var(--text12);
+        margin-bottom: 1em;
+    }
+
+    .threeddDiv div:nth-child(4) {
+        font-size: var(--text12);
+        margin-bottom: 1em;
+    }
+
+
+    .threeddDivImg {
+        position: relative;
+        width: 28rem;
+        height: 20rem;
+        background-image: url('../../assets/krevet.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+
+    }
+
+    .threeddDivImg img {
+        width: 100%;
+        height: 100%;
+        border-radius: var(--borderRadius);
+    }
+
+
+
+
+
+
+
+
+    .fourDiv {
+        position: relative;
+        width: 60rem;
+        background-color: var(--grey);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: center; */
+
+
+        padding: 2.5em;
+        margin-top: 4em;
+        margin-bottom: 4em;
+
+
+    }
+
+
+    .fourDiv div:nth-child(1) {
+
+        margin-bottom: 1em;
+        font-size: var(--text15);
+
+
+    }
+
+    .fourDiv div:nth-child(2) {
+
+        font-size: var(--text12);
+        margin-bottom: 1em;
+
+    }
+
+    .fourDiv div:nth-child(3) {
+
+        font-size: var(--text12);
+        margin-bottom: 1em;
+
+    }
+
+    .fourDiv div:nth-child(4) {
+
+        font-size: var(--text12);
+        margin-bottom: 1em;
+
+    }
+
+
+
+.secondDivImg::before {
+display: none;
+
+}
+
+
+.secondDivImg::after {
+display: none;
+
+}
+
+.threeddDivImg::before {
+display: none;
+
+}
+
+
+.threeddDivImg::after {
+display: none;
+
+}
+
+
+.fourDiv::before {
+display: none;
+
+
+
+}
+
+
+.fourDiv::after {
+display: none;
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media(max-width: 60rem) {
+    .firstDiv {
+        width: 40rem;
+        display: flex;
+        padding: .15em;
+        font-size: var(--text15);
+
+        margin-top: var(--marginTopNum);
+        margin-bottom: var(--marginTopNum);
+
+        text-decoration: underline;
+
+
+
+    }
+
+    .secondDiv {
+        width: 40rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+
+
+        padding: .5em;
+
+
+    }
+
+    .secondDivText {
+        width: 100%;
+
+    }
+
+
+
+
+    .secondDiv div:nth-child(1) {
+        font-size: var(--text15);
+
+    }
+
+    .secondDiv div:nth-child(2) {
+        font-size: var(--text15);
+        margin-bottom: 1em;
+    }
+
+    .secondDiv div:nth-child(3) {
+        font-size: var(--text12);
+        margin-bottom: 1em;
+    }
+
+    .secondDiv div:nth-child(4) {
+        font-size: var(--text12);
+        margin-bottom: 1em;
+    }
+
+
+    .secondDivImg {
+        position: relative;
+        width: 95%;
+        height: 20rem;
+        background-image: url('../../assets/stolica.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+   margin-top: 3em;
+
+
+    }
+
+
+
+    .threeddDiv {
+        width: 40rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        margin-top: 5em;
+
+        padding: .5em;
+   
+
+    }
+
+    .threeddDivText {
+    width: 100%;
+
+
+
+
+    }
+
+    .threeddDiv div:nth-child(1) {
+        font-size: var(--text15);
+
+    }
+
+    .threeddDiv div:nth-child(2) {
+        font-size: var(--text15);
+        margin-bottom: 1em;
+
+    }
+
+    .threeddDiv div:nth-child(3) {
+        font-size: var(--text12);
+        margin-bottom: 1em;
+    }
+
+    .threeddDiv div:nth-child(4) {
+        font-size: var(--text12);
+        margin-bottom: 1em;
+    }
+
+
+    .threeddDivImg {
+        position: relative;
+        width: 95%;
+        height: 20rem;
+        background-image: url('../../assets/krevet.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+     margin-top: 3em;
+
+
+    }
+
+    .threeddDivImg img {
+        width: 100%;
+        height: 100%;
+        border-radius: var(--borderRadius);
+    }
+
+
+
+
+
+
+
+
+    .fourDiv {
+        position: relative;
+        width: 40rem;
+        background-color: var(--grey);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: center; */
+
+
+        padding: 2.5em;
+        margin-top: 4em;
+        margin-bottom: 4em;
+
+
+    }
+
+
+    .fourDiv div:nth-child(1) {
+
+        margin-bottom: 1em;
+        font-size: var(--text15);
+
+
+    }
+
+    .fourDiv div:nth-child(2) {
+
+        font-size: var(--text12);
+        margin-bottom: 1em;
+
+    }
+
+    .fourDiv div:nth-child(3) {
+
+        font-size: var(--text12);
+        margin-bottom: 1em;
+
+    }
+
+    .fourDiv div:nth-child(4) {
+
+        font-size: var(--text12);
+        margin-bottom: 1em;
+
+    }
+
+
+.secondDivImg::before {
+    display: none;
+
+
+}
+
+
+.secondDivImg::after {
+    display: none;
+
+}
+
+.threeddDivImg::before {
+    display: none;
+}
+
+
+.threeddDivImg::after {
+
+
+    display: none;
+
+}
+
+.fourDiv::before {
+    display: none;
+}
+
+
+.fourDiv::after {
+    display: none;
+
+}
+
+
+
+}
+
+
+
+
+
+
+@media(max-width: 40rem) {
+
+
+    .firstDiv {
+        width: 100%;
+        display: flex;
+        padding: 1em;
+        font-size: var(--text15);
+
+        margin-top: var(--marginTopNum);
+        margin-bottom: var(--marginTopNum);
+
+        text-decoration: underline;
+
+
+
+    }
+
+    .secondDiv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+
+
+        padding: 1em;
+
+
+    }
+
+    .secondDivText {
+        width: 100%;
+
+    }
+
+
+
+
+    .secondDiv div:nth-child(1) {
+        font-size: var(--text15);
+
+    }
+
+    .secondDiv div:nth-child(2) {
+        font-size: var(--text15);
+        margin-bottom: 1em;
+    }
+
+    .secondDiv div:nth-child(3) {
+        font-size: var(--text12);
+        margin-bottom: 1em;
+    }
+
+    .secondDiv div:nth-child(4) {
+        font-size: var(--text12);
+        margin-bottom: 1em;
+    }
+
+
+    .secondDivImg {
+        position: relative;
+        width: 100%;
+        height: 23rem;
+        background-image: url('../../assets/stolica.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    margin-top: var(--marginTopNum);
+
+
+    }
+
+
+
+    .threeddDiv {
+    width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    margin-top: var(--marginTopNum);
+
+        padding: 1em;
+
+
+    }
+
+    .threeddDivText {
+        width: 100%;
+
+
+
+
+    }
+
+    .threeddDiv div:nth-child(1) {
+        font-size: var(--text15);
+
+    }
+
+    .threeddDiv div:nth-child(2) {
+        font-size: var(--text15);
+        margin-bottom: 1em;
+
+    }
+
+    .threeddDiv div:nth-child(3) {
+        font-size: var(--text12);
+        margin-bottom: 1em;
+    }
+
+    .threeddDiv div:nth-child(4) {
+        font-size: var(--text12);
+        margin-bottom: 1em;
+    }
+
+
+    .threeddDivImg {
+        position: relative;
+        width: 100%;
+        height: 23rem;
+        background-image: url('../../assets/krevet.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    margin-top: var(--marginTopNum);
+
+
+    }
+
+    .threeddDivImg img {
+        width: 100%;
+        height: 100%;
+        border-radius: var(--borderRadius);
+    }
+
+
+
+
+
+
+
+    .fourDiv {
+        position: relative;
+        width: 95%;
+        background-color: var(--grey);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: center; */
+
+
+        padding: 1em;
+    margin-top: var(--marginTopNum);
+        margin-bottom: var(--marginTopNum);
+
+
+    }
+
+
+    .fourDiv div:nth-child(1) {
+
+        margin-bottom: 1em;
+        font-size: var(--text15);
+
+
+    }
+
+    .fourDiv div:nth-child(2) {
+
+        font-size: var(--text12);
+        margin-bottom: 1em;
+
+    }
+
+    .fourDiv div:nth-child(3) {
+
+        font-size: var(--text12);
+        margin-bottom: 1em;
+
+    }
+
+    .fourDiv div:nth-child(4) {
+
+        font-size: var(--text12);
+        margin-bottom: 1em;
+
+    }
+
+
+
 }
