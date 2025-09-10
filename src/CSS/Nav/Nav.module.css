@@ -97,6 +97,25 @@ color: var(--white);
 }
 
 
+.slika{
+   position: fixed;
+   top: 2%;
+   left: 5%;
+   z-index: 10;
+    display: none;
+}
+.nav960 {
+  display: none;  
+}
+
+.bars{
+position: fixed;
+    top: 2%;
+    right: 5%;
+    z-index: 10;
+    display: none;
+}
+
 
 @media(max-width:80rem) {
 
@@ -251,8 +270,59 @@ color: var(--white);
     }
 
    
+.slika {
+    position: fixed;
+    top: 0%;
+    left: 5%;
+    z-index: 20;
+    display: block;
+ 
+}
+
+.slika img {
+    width: 5rem;
 
 }
+
+.nav960{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+min-height: 100vh;
+width: 100%;
+background-color: var(--yellow);
+z-index: 55;
+}
+
+
+.nav960 a{
+   color: white;
+   text-decoration: none;
+   font-size: var(--nav960);
+}
+.nav960 a{
+    padding: 1em;
+}
+
+.bars {
+    position: fixed;
+    top: 3%;
+    right: 4%;
+  
+    display: flex;
+    font-size: var(--nav960bars);
+    color: var(--white);
+    z-index: 1000;
+}
+
+
+}
+
+
+
+
+
 
 
 
