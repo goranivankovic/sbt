@@ -117,6 +117,18 @@ position: fixed;
 }
 
 
+.cross {
+    position: fixed;
+    top: 2%;
+    right: 5%;
+
+    display: none;
+    font-size: var(--navCross);
+    color: var(--white);
+
+}
+
+
 @media(max-width:80rem) {
 
     .mainItems {
@@ -273,14 +285,14 @@ position: fixed;
 .slika {
     position: fixed;
     top: 0%;
-    left: 5%;
+    left: 3%;
     z-index: 20;
     display: block;
  
 }
 
 .slika img {
-    width: 5rem;
+    width: 6rem;
 
 }
 
@@ -314,6 +326,18 @@ z-index: 55;
     font-size: var(--nav960bars);
     color: var(--white);
     z-index: 1000;
+}
+
+.cross{
+   position: fixed;
+    top: 3%;
+    right: 6%;
+
+    display: flex;
+    font-size: var(--navCross);
+    color: var(--white);
+    z-index: 1000;
+  
 }
 
 

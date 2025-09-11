@@ -46,8 +46,8 @@ setLaz4(!laz4)
 <div   className={navStyle.slika} >
 <motion.img     
   
-               initial={{ x:0,rotate:0}}
-              animate={{ x:[0,-40,0] ,rotate:[0,-10,0]}}
+               initial={{ x:0 }}
+              animate={{ x:[0,40,0] }}
           transition={{
             duration:2.4,
             ease: "easeInOut",
@@ -79,7 +79,7 @@ setLaz4(!laz4)
 
 
    {!laz4 ? <FaBarsStaggered  style={{color:"#d69d32"}} className={navStyle.bars} onClick={toogle}/>  : 
-     <ImCross  className={navStyle.bars} onClick={toogle} /> }
+     <ImCross  className={navStyle.cross} onClick={toogle} /> }
              
 
 

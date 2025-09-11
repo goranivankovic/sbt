@@ -52,8 +52,8 @@ margin-bottom: var(--marginTopNum);
 }
 
 .box{
-width: 26rem;
-height: 38rem;
+width: 23rem;
+height: 39rem;
 background-color: var(--white);
 display: flex;
 flex-direction: column;
@@ -360,7 +360,7 @@ width: 85%;
     }
 
     .box {
-        width: 23rem;
+        width: 22rem;
         height: 38rem;
         background-color: var(--white);
         display: flex;
@@ -477,13 +477,15 @@ width: 85%;
     }
 
     .box {
-        width: 22rem;
-        height: 37rem;
+        width: 20rem;
+        height: 36rem;
         background-color: var(--white);
         display: flex;
         flex-direction: column;
         box-shadow: 5px 12px 12px black;
         margin-bottom: var(--marginTopNum);
+
+    
 
     }
 

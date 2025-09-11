@@ -43,6 +43,7 @@
 --navItems:1.15rem;
 --nav960:1.1rem;
 --nav960bars:1.3rem;
+ --navCross: 1.5rem;
 
 
 /* POCETNA */
@@ -209,7 +210,8 @@
     --navYellow: 1rem;
     --navItems: 1.15rem;
     --nav960: 1.1rem;
-    --nav960bars : 1.25rem;
+    --nav960bars: 2.1rem;
+    --navCross:1.6rem;
 
 
     /* POCETNA */
@@ -270,7 +272,7 @@
     --navYellow: 1rem;
     --navItems: 1.15rem;
     --nav960: 1rem;
-    --nav960bars: 1.5rem;
+    --nav960bars: 2.2rem;
 
 
     /* POCETNA */
