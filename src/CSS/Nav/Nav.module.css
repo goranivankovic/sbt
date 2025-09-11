@@ -14,7 +14,7 @@ z-index: 50;
 .firstDiv{
 width: 100%;
 
-padding: .25em;
+padding: .35em;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -37,6 +37,7 @@ background-color: var(--yellow);
 .navItems div:nth-child(3){
     padding-left: .3em;
 
+   
 }
 
 
@@ -321,7 +322,7 @@ z-index: 55;
 .bars {
     position: fixed;
     top: 3%;
-    right: 6%;
+    right: 5%;
   
     display: flex;
     font-size: var(--nav960bars);
@@ -332,7 +333,7 @@ z-index: 55;
 .cross{
    position: fixed;
     top: 3%;
-    right: 6%;
+    right: 5%;
 
     display: flex;
     font-size: var(--navCross);

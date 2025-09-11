@@ -49,7 +49,7 @@ const handleMouseLeave3 = () => setlaze3(false);
 
       style={{
 
-          transform: laz ? 'translateX(400px) scale(1.2)' : 'translateX(0) scale(1)',
+          transform: laz ? 'translateX(400px) scale(1.1)' : 'translateX(0) scale(1)',
               zIndex : laz ? 15: 6,
           transition: 'transform 1.5s ease',
         }}
@@ -71,7 +71,7 @@ const handleMouseLeave3 = () => setlaze3(false);
             <div   className={uslugeStyle.box}
                   style={{
 
-          transform: laz2 ? 'translateX(530px) scale(1.2)' : 'translateX(0) scale(1)',
+          transform: laz2 ? 'translateX(530px) scale(1.1)' : 'translateX(0) scale(1)',
           transition: 'transform 1.5s ease',
              zIndex : laz2 ? 15: 5,
         }}
@@ -91,7 +91,7 @@ const handleMouseLeave3 = () => setlaze3(false);
 
                 style={{
 
-          transform: laz3 ? 'translateX(600px) scale(1.2)' : 'translateX(0) scale(1)',
+          transform: laz3 ? 'translateX(600px) scale(1.1)' : 'translateX(0) scale(1)',
        zIndex : laz3 ? 15: 4,
           transition: 'transform 1.5s ease',
         }}

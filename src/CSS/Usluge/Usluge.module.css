@@ -58,6 +58,7 @@ background-color: var(--white);
 display: flex;
 flex-direction: column;
 box-shadow: 5px 12px 12px  black;
+font-size: 1rem;
 
 }
 
@@ -81,7 +82,7 @@ box-shadow: 5px 12px 12px  black;
 
 .box div:nth-child(3) {
     margin-top: 1em;
-    font-size: var(--text11);
+   
 
 }
 
