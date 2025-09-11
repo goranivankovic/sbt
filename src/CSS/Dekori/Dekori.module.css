@@ -233,10 +233,10 @@ color:black;
   }
 
   .secondDiv {
-    width: 35rem;
+    width: 40rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: black;
 
@@ -244,14 +244,14 @@ color:black;
   }
 
   .boxes {
-    width: 15rem;
-    height: 22rem;
+  width: 17rem;
+    height: 21rem;
     font-size: var(--text11);
 
   }
 
   .secondDiv img {
-    width: 15rem;
+    width: 17rem;
     height: 19rem;
   }
 

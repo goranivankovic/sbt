@@ -316,6 +316,53 @@ function incrementLeft() {
                 </div>
 
 
+
+
+
+
+
+
+                        {/* 768 DIV */}
+
+
+              <div className={galerijaStyle.imgDiv760}> 
+
+                <div  onClick={()=>{settoogleImg(!toogleImg) , setBroj(0)}}   ><img src={room2} alt=""
+               
+                
+                /></div>
+
+                <div  onClick={()=>{settoogleImg(!toogleImg) , setBroj(1)}} ><img src={kombi} alt="" /></div>
+
+                <div  onClick={()=>{settoogleImg(!toogleImg) , setBroj(2)}}><img src={room3} alt="" /></div>
+
+                <div onClick={()=>{settoogleImg(!toogleImg) , setBroj(3)}}  ><img src={room4} alt="" /></div>
+
+                <div  onClick={()=>{settoogleImg(!toogleImg) , setBroj(4)}}><img src={plakar2} alt="" /></div>
+
+                <div onClick={()=>{settoogleImg(!toogleImg) , setBroj(5)}} ><img src={krevet} alt="" /></div>
+
+                <div onClick={()=>{settoogleImg(!toogleImg) , setBroj(6)}}><img src={plakar} alt="" /></div>
+
+                <div onClick={()=>{settoogleImg(!toogleImg) , setBroj(7)}} ><img src={kuhinja} alt="" /></div>
+
+
+                <div onClick={()=>{settoogleImg(!toogleImg) , setBroj(8)}}  ><img src={kuhinja2} alt="" /></div>
+
+
+                <div  onClick={()=>{settoogleImg(!toogleImg) , setBroj(9)}} >
+
+                  <img src={pult} alt="" /></div>
+                
+                </div>
+
+
+
+
+
+
+
+
         </div>
 
     </div>

@@ -275,6 +275,10 @@ right: 0%;
 }
 
 
+.imgDiv760{
+  display: none;
+}
+
 
 
 
@@ -905,6 +909,20 @@ display: none;
 
 
 @media(max-width:50rem) {
+.main {
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--grey);
+    margin-top: var(--marginTopNum);
+    margin-bottom: var(--marginTopNum);
+
+  }
+
+
   .firstDiv {
     width: 40rem;
     display: flex;
@@ -932,38 +950,34 @@ display: none;
   }
 
 
-  .imgDiv {
-    width: 40rem;
-    max-height: 50rem;
-    position: relative;
-    display: grid;
-
-    gap: .5em;
-    grid-template-columns: 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem;
-    grid-template-rows: 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem ;
-
-    /* background-color: red; */
-
-  }
+.imgDiv {
+  display: none;
 
 
-  .imgDiv div img {
-    height: 100%;
-    width: 100%;
-  }
-
-
-  .imgDiv::before {
-    display: none;
+}
 
 
 
-  }
+.imgDiv760 {
+  width: 40rem;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+.imgDiv760 div{
+    width: 17rem;
+    height: 21rem;
+  margin-bottom: 1em;
+}
+
+.imgDiv760 img{
+  width: 100%;
+  height: 100%;
+}
 
 
-  .imgDiv::after {
-    display: none;
-  }
 
 
   .toggleDiv {
@@ -1079,29 +1093,30 @@ z-index: 1;
 }
 
 .imgDiv {
-position: relative;
+display: none;
 
-width: 100%;
-display: flex;
 
+}
+
+
+.imgDiv760 {
+  width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
-
-max-height:400vh
-
-
+ 
 }
 
-
-.imgDiv div{
-
-  height: 16rem;
-  width: 48%;
+.imgDiv760 div {
+  width: 50%;
+  height: 17rem;
+  margin-bottom: 0em;
 }
 
-.imgDiv img {
+.imgDiv760 img {
+  width: 100%;
   height: 100%;
-  width: 100%
 }
 
 

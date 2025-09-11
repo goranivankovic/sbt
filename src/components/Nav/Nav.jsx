@@ -6,7 +6,8 @@ import SBT from '../../assets/SBT.png'
 import { useState } from "react";
 
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { FaBarsStaggered } from "react-icons/fa6";
+
+import { FaChartBar } from "react-icons/fa";
 
 import { ImCross } from "react-icons/im";
 
@@ -78,7 +79,7 @@ setLaz4(!laz4)
 
 
 
-   {!laz4 ? <FaBarsStaggered  style={{color:"#d69d32"}} className={navStyle.bars} onClick={toogle}/>  : 
+   {!laz4 ? <FaChartBar  style={{color:"#d69d32"}} className={navStyle.bars} onClick={toogle}/>  : 
      <ImCross  className={navStyle.cross} onClick={toogle} /> }
              
 
