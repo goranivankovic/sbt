@@ -67,10 +67,11 @@ padding-left: 3em;
         font-size: var(--pocetnaBrojevi);
  
         width: 80%;
-        padding: 1.3em;
+        padding: 1em;
        display: flex;
        align-items: center;
        justify-content: space-between;
+       /* background-color: red; */
 
     }
 
@@ -102,13 +103,13 @@ padding-left: 3em;
     position: absolute;
     top: 42%;
     right: 4%;
-    width: 35rem;
+    width: 37rem;
     z-index: 5;
 opacity: .8;
 color: var(--white);
 border-radius: .6em;
   padding: 1.5em;
-
+/* background-color: red; */
 
   }
 
@@ -179,7 +180,7 @@ border-radius: .6em;
     font-size: var(--pocetnaBrojevi);
 
     width: 80%;
-    padding: 1.3em;
+    padding: 1em;
     display: flex;
     align-items: center;
     justify-content: space-between;
