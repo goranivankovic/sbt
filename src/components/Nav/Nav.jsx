@@ -45,18 +45,7 @@ setLaz4(!laz4)
 
 
 <div   className={navStyle.slika} >
-<motion.img     
-  
-               initial={{ x:0 }}
-              animate={{ x:[0,40,0] }}
-          transition={{
-            duration:2.4,
-            ease: "easeInOut",
-            repeat: Infinity,
-            repeatType: "loop",
-            repeatDelay: 2
-          }}
- src={SBT} alt="" />
+   <img src={SBT} alt="" />
 
 </div>
 
@@ -79,9 +68,48 @@ setLaz4(!laz4)
 
 
 
-   {!laz4 ? <FaChartBar  style={{color:"#d69d32"}} className={navStyle.bars} onClick={toogle}/>  : 
-     <ImCross  className={navStyle.cross} onClick={toogle} /> }
-             
+
+<motion.svg width="54" className={navStyle.bars} height="43" viewBox="0 0 64 43" fill="none" xmlns="http://www.w3.org/2000/svg" onClick={toogle}>
+<g id="Frame 3">
+<motion.path 
+    initial={{ scale: 1 }}
+          animate={{ rotate: !laz4 ? 0 : -45 , y : !laz4 ? 0 :10}}
+          transition={{ duration: 1.4 }}
+
+id="Line 20" d="M6.5 6H68.5"  stroke="#d69d32"  strokeWidth="7"/>
+<motion.line 
+    initial={{  scale: 1 }}
+          animate={{ rotate : !laz4 ? 0 : 45 }}
+          transition={{ duration: 1.4 }}
+
+ id="Line 20_2" x1="6" y1="20.5" x2="68" y2="20.5" stroke="#d69d32" strokeWidth="7"/>
+
+{!laz4 ? <motion.path id="Line 20_3" d="M6 35H54" stroke="#f9a825" strokeWidth="7" 
+
+
+  initial={{ x:0}}
+          animate={{ x:[0,20,0] }}
+          transition={{
+            duration:2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatType: "loop",
+            repeatDelay: 2
+          }}
+
+/> :''}
+</g>
+</motion.svg> 
+
+
+
+
+
+
+
+
+
+
 
 
         <div className={navStyle.firstDiv}>

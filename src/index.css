@@ -23,6 +23,7 @@
   --grey: #d9d9d9;
   --white:#ffffff;
 
+
   --borderRadius:.5em;
   --transition:.5s;
   --marginTopNum:3em;
@@ -42,8 +43,6 @@
 --navYellow:1rem;
 --navItems:1.15rem;
 --nav960:1.1rem;
---nav960bars:1.3rem;
- --navCross: 1.5rem;
 
 
 /* POCETNA */
@@ -210,8 +209,6 @@
     --navYellow: 1rem;
     --navItems: 1.15rem;
     --nav960: 1.1rem;
-    --nav960bars: 2.1rem;
-    --navCross:1.6rem;
 
 
     /* POCETNA */
@@ -272,7 +269,7 @@
     --navYellow: 1rem;
     --navItems: 1.15rem;
     --nav960: 1rem;
-    --nav960bars: 2.2rem;
+
 
 
     /* POCETNA */
