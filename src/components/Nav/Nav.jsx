@@ -74,13 +74,13 @@ setLaz4(!laz4)
 <motion.path 
     initial={{ scale: 1 }}
           animate={{ rotate: !laz4 ? 0 : -45 , y : !laz4 ? 0 :10}}
-          transition={{ duration: 1.4 }}
+          transition={{ duration: 1.1 }}
 
 id="Line 20" d="M6.5 6H68.5"  stroke="#d69d32"  strokeWidth="7"/>
 <motion.line 
     initial={{  scale: 1 }}
           animate={{ rotate : !laz4 ? 0 : 45 }}
-          transition={{ duration: 1.4 }}
+          transition={{ duration: 1.1}}
 
  id="Line 20_2" x1="6" y1="20.5" x2="68" y2="20.5" stroke="#d69d32" strokeWidth="7"/>
 
