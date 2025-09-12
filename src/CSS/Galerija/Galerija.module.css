@@ -1133,12 +1133,15 @@ display: none;
 
     z-index: 10;
 
+
+
   }
 
  .toggleDivImg {
    position: relative;
    width: 90%;
-   height: 18rem;
+   height: 17rem;
+
 
  }
 

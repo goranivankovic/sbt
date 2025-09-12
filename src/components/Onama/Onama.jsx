@@ -36,7 +36,7 @@ AOS.init();
                data-aos-duration="1500"
                data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-                  data-aos-once="false"
+                  // data-aos-once="false"
 
                 >
                     <div>S<span style={{color:'#d69d32'}}>B</span>T – mesto gde se preciznost susreće </div>

@@ -66,8 +66,8 @@
 
 
 /* Contact */
---contactHeadline:2.1rem;
---contactIcons:1.65rem;
+--contactHeadline:2rem;
+--contactIcons:1.5rem;
 
 }
 
@@ -113,8 +113,8 @@
 
 
     /* Contact */
-    --contactHeadline: 2.1rem;
-    --contactIcons: 1.65rem;
+    --contactHeadline: 2rem;
+    --contactIcons: 1.5rem;
 
   }
 
@@ -171,8 +171,8 @@
 
 
     /* Contact */
-    --contactHeadline: 2.1rem;
-    --contactIcons: 1.65rem;
+    --contactHeadline: 2rem;
+    --contactIcons: 1.5rem;
 
   }
 
@@ -295,8 +295,8 @@
 
 
     /* Contact */
-    --contactHeadline: 1.4rem;
-    --contactIcons: 1.15rem;
+    --contactHeadline: 1.3rem;
+    --contactIcons: 1.05rem;
 
   }
 

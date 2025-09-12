@@ -44,7 +44,7 @@ background-color: var(--yellow);
 
 
 .mainNavbar {
- max-height: 4rem;
+ max-height: 4.5rem;
     width: 100%;
     background-color: var(--white);
     display: flex;
