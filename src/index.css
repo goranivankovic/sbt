@@ -77,9 +77,9 @@
     --marginTopNum: 3em;
 
 
-    --text15: 1.5rem;
-    --text12: 1.2rem;
-    --text11: 1.1rem;
+    --text15: 1.4rem;
+    --text12: 1.15rem;
+    --text11: 1.05rem;
 
 
     --pocetnaSM: 1.6rem;
@@ -89,7 +89,7 @@
     /* NAVBAR */
 
     --navYellow: 1rem;
-    --navItems: 1.15rem;
+    --navItems: 1.1rem;
 
 
     /* POCETNA */
@@ -147,7 +147,7 @@
     /* NAVBAR */
 
     --navYellow: 1rem;
-    --navItems: 1.15rem;
+    --navItems: 1.1rem;
 
 
     /* POCETNA */
@@ -159,7 +159,7 @@
     --onamaICon: 2rem;
 
     /* Usluge */
-    --boxHeadline: 1.1rem;
+    --boxHeadline: 1.05rem;
     /* TRANSPORT */
 
     --transportIcons: 2rem;
@@ -220,7 +220,7 @@
     --onamaICon: 2rem;
 
     /* Usluge */
-    --boxHeadline: 1.1rem;
+    --boxHeadline: 1.05rem;
     /* TRANSPORT */
 
     --transportIcons: 2rem;
