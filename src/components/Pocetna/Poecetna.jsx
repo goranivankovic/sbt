@@ -67,7 +67,17 @@ function toogle4() {
           }}
             >
                <div>IZRADA <span  style={{color:"#d69d32"}}>NAMEŠTAJA</span>  PO MERI</div>
-              <div>IDEJA <span style={{color:"#d69d32"}}>DI</span>ZAJN</div>
+              <motion.div
+              initial={{ opacity:0}}
+          animate={{ scale:[1,1.1,1],opacity:[0,1]}}
+          transition={{
+            duration:2.4,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatType: "loop",
+            repeatDelay: 2
+          }}
+              >IDEJA <span style={{color:"#d69d32"}} >DI</span>ZAJN</motion.div>
               <div><span style={{color:"#d69d32"}}>RE</span>ALIZACIJA</div> 
            
             </motion.div>
