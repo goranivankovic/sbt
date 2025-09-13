@@ -1,6 +1,6 @@
 .main{
     width: 100%;
- min-height: 100vh;
+ min-height:100vh;
    display: flex;
    flex-direction:column; 
    align-items: center;
@@ -113,8 +113,8 @@ font-size: 1rem;
 
 
 .brojevi{
-    margin-top: 5em;
- width: 18rem;
+    margin-top: 2em;
+ width: 22rem;
   color: var(--white);
 
 display: flex;
@@ -124,12 +124,13 @@ z-index: 10;
 font-size: var(--boxHeadline);
 
 
-   
+
 
 }
 .brojevi div{
     width: 100%;
-    margin-bottom: 5em;
+    padding: 1.5em;
+
     display: flex;
     align-items: center;
  justify-content: space-between;
@@ -238,7 +239,7 @@ width: 85%;
     }
 
     .box div {
-        padding: 1em;
+        padding: 1.5em;
     }
 
     .box div:nth-child(2) {
@@ -281,7 +282,7 @@ width: 85%;
 
     .brojevi {
         margin-top: 5em;
-        width: 18rem;
+        width: 21rem;
         color: var(--white);
 
         display: flex;
@@ -297,7 +298,6 @@ width: 85%;
 
     .brojevi div {
         width: 100%;
-        margin-bottom: 5em;
         display: flex;
         align-items: center;
         justify-content: space-between;
