@@ -46,7 +46,7 @@ margin-bottom: var(--marginTopNum);
  display: flex;
  flex-direction: column;
 
-font-size: var(--text12);
+font-size: var(--text11);
 /* border: .4em solid red; */
 
 }
@@ -184,8 +184,8 @@ font-size: var(--text11);
         display: flex;
         flex-direction: column;
 
-        font-size: var(--text12);
-        /* border: .4em solid red; */
+        font-size: var(--text11);
+      
 
     }
 
@@ -315,7 +315,7 @@ font-size: var(--text11);
    
         flex-direction: column;
 
-        font-size: var(--text12);
+        font-size: var(--text11);
         /* border: .4em solid red; */
 
     }
@@ -434,7 +434,7 @@ display: none;
 
         flex-direction: column;
 
-        font-size: var(--text12);
+        font-size: var(--text11);
         /* border: .4em solid red; */
 
     }

@@ -64,12 +64,12 @@ margin-bottom: 1em;
 }
 
 .secondDiv div:nth-child(3) {
-    font-size: var(--text12);
+    font-size: var(--text11);
     margin-bottom: 1em;
 }
 
 .secondDiv div:nth-child(4) {
-    font-size: var(--text12);
+    font-size: var(--text11);
     margin-bottom: 1em;
 }
 
@@ -162,7 +162,7 @@ background-repeat: no-repeat;
 }
 
 .threeddDiv div:nth-child(2) {
-    font-size: var(--text12);
+    font-size: var(--text11);
     margin-bottom: 1em;
    
   
@@ -396,13 +396,13 @@ background-repeat: no-repeat;
     }
 
     .secondDiv div:nth-child(3) {
-        font-size: var(--text12);
+        font-size: var(--text11);
         margin-bottom: 1em;
     
     }
 
     .secondDiv div:nth-child(4) {
-        font-size: var(--text12);
+        font-size: var(--text11);
         margin-bottom: 1em;
     }
 
@@ -455,13 +455,13 @@ background-repeat: no-repeat;
     }
 
     .threeddDiv div:nth-child(3) {
-        font-size: var(--text12);
+        font-size: var(--text11);
         margin-bottom: 1em;
       
     }
 
     .threeddDiv div:nth-child(4) {
-        font-size: var(--text12);
+        font-size: var(--text11);
         margin-bottom: 1em;
     }
 
@@ -638,12 +638,12 @@ display: none;
     }
 
     .secondDiv div:nth-child(3) {
-        font-size: var(--text12);
+        font-size: var(--text11);
         margin-bottom: 1em;
     }
 
     .secondDiv div:nth-child(4) {
-        font-size: var(--text12);
+        font-size: var(--text11);
         margin-bottom: 1em;
     }
 
@@ -692,19 +692,19 @@ display: none;
     }
 
     .threeddDiv div:nth-child(2) {
-        font-size: var(--text12);
+        font-size: var(--text11);
         margin-bottom: 1em;
 
 
     }
 
     .threeddDiv div:nth-child(3) {
-        font-size: var(--text12);
+        font-size: var(--text11);
         margin-bottom: 1em;
     }
 
     .threeddDiv div:nth-child(4) {
-        font-size: var(--text12);
+        font-size: var(--text11);
         margin-bottom: 1em;
     }
 
@@ -877,12 +877,12 @@ display: none;
     }
 
     .secondDiv div:nth-child(3) {
-        font-size: var(--text12);
+        font-size: var(--text11);
         margin-bottom: 1em;
     }
 
     .secondDiv div:nth-child(4) {
-        font-size: var(--text12);
+        font-size: var(--text11);
         margin-bottom: 1em;
     }
 
@@ -930,19 +930,19 @@ display: none;
     }
 
     .threeddDiv div:nth-child(2) {
-        font-size: var(--text12);
+        font-size: var(--text11);
         margin-bottom: 1em;
 
 
     }
 
     .threeddDiv div:nth-child(3) {
-        font-size: var(--text12);
+        font-size: var(--text11);
         margin-bottom: 1em;
     }
 
     .threeddDiv div:nth-child(4) {
-        font-size: var(--text12);
+        font-size: var(--text11);
         margin-bottom: 1em;
     }
 
