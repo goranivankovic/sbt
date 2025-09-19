@@ -69,7 +69,7 @@ setLaz4(!laz4)
 
 
 
-<motion.svg width="54" className={navStyle.bars} height="43" viewBox="0 0 64 43" fill="none" xmlns="http://www.w3.org/2000/svg" onClick={toogle}>
+<motion.svg width="55" className={navStyle.bars} height="43" viewBox="0 0 64 43" fill="none" xmlns="http://www.w3.org/2000/svg" onClick={toogle}>
 <g id="Frame 3">
 <motion.path 
     initial={{ scale: 1 }}
